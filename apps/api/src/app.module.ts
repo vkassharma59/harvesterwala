@@ -32,7 +32,7 @@ import { UploadsModule } from './modules/uploads/uploads.module';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ isGlobal: true, load: [configuration] }),
+    ConfigModule.forRoot({ isGlobal: true,  envFilePath: '/home/harvesterwala/public_html/admin.harvesterwala.com/apps/api/.env',  load: [configuration] }),
     TypeOrmModule.forRootAsync({
       inject: [ConfigService],
       useFactory: async (config: ConfigService<AppConfig, true>) => {

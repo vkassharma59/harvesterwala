@@ -14,7 +14,7 @@ import type {
   SubscriptionStatus,
 } from '@wh/shared';
 
-const BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3200/api/v1';
+const BASE = 'https://www.admin.harvesterwala.com/api/v1';
 const TOKEN_KEY = 'wh_admin_token';
 
 export const tokenStore = {
