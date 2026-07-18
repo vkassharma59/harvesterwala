@@ -2,16 +2,18 @@
   "expo": {
     "name": "My Harvester",
     "slug": "my-harvester",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "wheatharvester",
+    "icon": "./assets/logoapp.png",
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#1B5E20"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "icon": "./assets/logoapp.png",
       "supportsTablet": true,
       "bundleIdentifier": "com.wheatharvester.app",
       "infoPlist": {
@@ -19,12 +21,13 @@
       }
     },
     "android": {
+      "icon": "./assets/logoapp.png",
       "package": "com.wheatharvester.app",
       "permissions": ["READ_CONTACTS"]
     },
     "plugins": ["expo-secure-store", "expo-contacts", "expo-document-picker"],
     "extra": {
-      "apiUrl": "http://13.49.41.223/api/v1"
+      "apiUrl": "https://www.admin.harvesterwala.com/api/v1"
     }
   }
 }

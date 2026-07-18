@@ -12,5 +12,4 @@ import Constants from 'expo-constants';
  */
 const extra = (Constants.expoConfig?.extra ?? {}) as { apiUrl?: string };
 
-export const API_URL =
-  process.env.EXPO_PUBLIC_API_URL ?? extra.apiUrl ?? 'http://localhost:3000/api/v1';
+export const API_URL = 'https://www.admin.harvesterwala.com/api/v1';
