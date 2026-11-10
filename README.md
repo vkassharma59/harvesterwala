@@ -1,4 +1,4 @@
-# Wheat Harvester Management
+# Harvesterwala Complete App and Admin Code
 
 A multi-tenant management app for wheat-harvesting business owners — track
 harvesting operations, customers, expenses, labour, jobs and earnings.
